@@ -1,0 +1,129 @@
+/*Estilos generales para modificar el color de fondo del sitio, las regletas horizontales
+que separan cada sección y la fuente de los textos que no son títulos*/
+
+body{
+    background-color: lightgrey;
+}
+
+hr{
+    margin: 30px;
+    border-color: blueviolet;
+}
+
+p,ul,ol,pre,a {
+    font-family: Calibri, sans-serif;
+    font-size: 15px;
+}
+
+/*Estilos para los títulos de cada sección del sitio*/
+
+h2{
+    width: fit-content;
+    padding: 7px;
+    margin-left: 20px;
+    background-color: rebeccapurple;
+    color: white;
+}
+
+/*Estilos que modifican la barra de navegación: tamaño y márgenes del logo, color de fondo
+y las características de los botones (disposición, color y tamaño)*/
+
+#logo{
+    width: 5%;
+    height: 5%;
+    margin-right: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+}
+
+.navegacion{
+    background-color: mediumpurple;
+    margin-bottom: 30px;
+}
+
+.navegacion a{
+    display: inline-block;
+    vertical-align: 50px;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: white;
+    background-color: rebeccapurple;
+}
+
+/*Estilos para la presentación que permiten centrar los elementos, evita que la descripción
+se extienda hasta los bordes de la página y suaviza los bordes de la foto*/
+
+#presentacion{
+    text-align: center;
+    padding: 0% 20%;
+}
+
+#foto{
+    width: 20%;
+    height: 20%;
+    border-radius: 20%;
+}
+
+/*Permite mostrar las fortalezas y debilidades una al lado de otra*/
+
+#for, #deb{
+    display: inline-block;
+    margin-right: 50px;
+}
+
+/*Estilo de los antecedentes académicos, laborales y certificaciones (color de fondo y disposición)*/
+
+.antecedente{
+    background-color: rgb(202, 178, 250);
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+/*Estilos para controlar el tamaño y disposición de los logotipos de los lenguajes de programación*/
+
+.lenguaje{
+    width: 7%;
+    height: 7%;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+/*Estilos para los proyectos. Brinda color de fondo y disposición para la descripción 
+de la actividades, y controla el tamaño y separación de las imágenes de evidencia*/
+
+.actividad{
+    background-color: rgb(202, 178, 250);
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 15px;
+    margin-bottom: 25px;
+}
+
+.actividadimg{
+    width:40%;
+    height:40%;
+    margin: 10px;
+}
+
+/*Controla la disposición del formulario de contacto y da color al borde de sus campos*/
+
+form{
+    margin-left: 20px;
+}
+
+input, textarea{
+    border-color: blueviolet;
+}
+
+/*Otorga color de fondo al footer y controla la disposición de los Datos Adicionales*/
+
+footer{
+    background-color: mediumpurple;
+}
+
+#datos{
+    float: right;
+    padding-right: 20px;
+}
